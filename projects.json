@@ -3,14 +3,14 @@
     "title": "Forecasting Playoff Outcomes",
     "description": "An analysis of NBA team performance metrics and how their predictive power in forecasting playoff outcomes.",
     "image": "images/nba.png",
-    "url": "projects/project1/summary.pdf",
+    "url": "projects/NBA-Playoff-Predictions/summary.pdf",
     "date": "2024-04-01"
   },
   {
     "title": "Uncovering Patterns in Student Success",
     "description": "An analysis of how student habits correlate with academic performance.",
     "image": "images/student.png",
-    "url": "projects/project2/summary.html",
+    "url": "projects/Student-Success-Patterns/summary.html",
     "date": "2025-05-07"
   }
 ]
