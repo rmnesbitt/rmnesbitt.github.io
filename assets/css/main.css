@@ -2900,7 +2900,8 @@ input, select, textarea {
 			margin: 0 auto 1em auto;
 		}
 
-			.spotlight .image img {
+
+		.spotlight .image img {
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
