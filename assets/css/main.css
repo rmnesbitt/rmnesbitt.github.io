@@ -2890,7 +2890,7 @@ input, select, textarea {
 		.spotlight .image {
 			aspect-ratio: 1 / 1;          /* Force square */
 			width: 25%;                   /* Responsive width */
-			border-radius: 50%;           /* Make it a circle */
+			border-radius: 0;           /* Make it a circle */
 			overflow: hidden;
 			display: flex;
 			align-items: center;
