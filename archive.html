@@ -28,7 +28,7 @@
     fetch('projects.json')
       .then(response => response.json())
       .then(projects => {
-        projects.sort((a, b) => new Date(b.date) - new Date(a.date));
+        projects.sort((a, b) => a.index - b.index);
         const archivedProjects = projects.slice(3);
         const container = document.getElementById('archive-container');
 
