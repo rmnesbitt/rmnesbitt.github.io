@@ -10,7 +10,7 @@
   {
     "title": "Uncovering Patterns in Student Success",
     "description": "An analysis of how student habits correlate with academic performance.",
-    "image": "images/search.png",
+    "image": "images/graph.png",
     "url": "projects/Student-Success-Patterns/summary.html",
     "tools": ["python", "pandas", "statsmodels"],
     "index": "2"
