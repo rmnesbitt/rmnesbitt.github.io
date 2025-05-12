@@ -4,6 +4,7 @@
     "description": "An analysis of NBA team performance metrics and how their predictive power in forecasting playoff outcomes.",
     "image": "images/nba.png",
     "url": "projects/NBA-Playoff-Predictions/summary.pdf",
+    "tools":  ["sqlite", "numpy", "sklearn"],
     "index": "1"
   },
   {
@@ -11,6 +12,7 @@
     "description": "An analysis of how student habits correlate with academic performance.",
     "image": "images/student.png",
     "url": "projects/Student-Success-Patterns/summary.html",
+    "tools": ["python", "pandas", "statsmodels"],
     "index": "2"
   }
 ]
