@@ -14,5 +14,13 @@
     "url": "projects/Student-Success-Patterns/summary.html",
     "tools": ["python", "pandas", "statsmodels"],
     "index": "2"
+  },
+  {
+    "title": "Investigating Investor Behaviors",
+    "description": "An analysis of simulated investor behavior, portfolio trends and product monetization",
+    "image": "images/line-graph-4.png",
+    "url": "projects/Investor-Behavior-Patterns/dashboard.html",
+    "tools": ["matplotlib", "faker"],
+    "index": "3"
   }
 ]
