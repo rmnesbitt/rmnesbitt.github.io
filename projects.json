@@ -12,7 +12,7 @@
     "image": "images/chart-3.png",
     "url": "projects/NBA-Playoff-Predictions/npp.html",
     "tools":  ["sqlite", "numpy", "sklearn"],
-    "index": "2"
+    "index": "4"
   },
   {
     "title": "Uncovering Patterns in Student Success",
@@ -20,7 +20,7 @@
     "image": "images/plot-2.png",
     "url": "projects/Student-Success-Patterns/ssp.html",
     "tools": ["python", "pandas", "statsmodels"],
-    "index": "2"
+    "index": "3"
   },
   {
     "title": "Investigating Investor Behaviors",
@@ -28,6 +28,6 @@
     "image": "images/line-graph-4.png",
     "url": "projects/Investor-Behavior-Patterns/ibp.html",
     "tools": ["matplotlib", "faker"],
-    "index": "3"
+    "index": "2"
   }
 ]
