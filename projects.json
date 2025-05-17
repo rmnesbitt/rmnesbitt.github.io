@@ -3,7 +3,7 @@
     "title": "Forecasting Playoff Outcomes",
     "description": "An analysis of NBA team performance metrics and how their predictive power in forecasting playoff outcomes.",
     "image": "images/chart-3.png",
-    "url": "projects/NBA-Playoff-Predictions/summary.pdf",
+    "url": "projects/NBA-Playoff-Predictions/npp.html",
     "tools":  ["sqlite", "numpy", "sklearn"],
     "index": "1"
   },
