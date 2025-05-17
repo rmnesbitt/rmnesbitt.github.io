@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Data Portfolio Project</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../../assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+  <div class="content">
+    <h1>Synergistic Vector Reassessment</h1>
+    <p></p>
+    <p>Quantum-Adaptive Market Realignment</p>
+  </div>
+  <div class="image header"><div class="inner"><img src="../../images/search-2.png" alt="header image" /></div></div>
+</header>
+
+<!-- Proficiencies
+    <section id="one" class="wrapper style2 special">
+        <header class="major">
+            <h2>Proficiencies</h2>
+        </header>
+        <ul class="icons major">
+            <li>
+              <span class="icon sql-color"></span>
+              <span class="label">SQL</span>
+            </li>
+            <li>
+              <span class="icon python-color"></span>
+              <span class="label">Python</span>
+            </li>
+            <li>
+              <span class="icon r-color"></span>
+              <span class="label">R</span>
+            </li>
+            <li>
+              <span class="icon tableau-color"></span>
+              <span class="label">Tableau</span>
+            </li>
+            <li>
+              <span class="icon excel-color"></span>
+              <span class="label">Excel</span>
+            </li>
+        </ul>
+    </section>
+-->
+
+<!-- Projects
+<section id="archive-container" class="spotlights"></section>
+
+<script>
+  fetch('projects.json')
+          .then(response => response.json())
+          .then(projects => {
+            projects.sort((a, b) => a.index - b.index);
+            const archivedProjects = projects.slice(3);
+            const container = document.getElementById('archive-container');
+
+            archivedProjects.forEach((project, index) => {
+              const section = document.createElement('section');
+              section.className = 'spotlight style' + ((index % 2 === 0) ? '1' : '2');
+              section.innerHTML = `
+                <span class="image">
+                  <img src="${project.image}" alt="${project.title}" />
+                </span>
+                <div class="content">
+                  <h3>${project.title}</h3>
+                  <p>${project.description}</p>
+                  ${project.tools ? `<p class="tools">Tools Used: ${project.tools.join(", ")}</p>` : ''}
+                  <ul class="actions">
+                    <li><a href="${project.url}" class="button" target="_blank">Learn More</a></li>
+                  </ul>
+                </div>
+
+              `;
+              container.appendChild(section);
+            });
+          });
+</script>
+-->
+
+<!-- Portfolio Item -->
+<!-- Portfolio Item -->
+<section class="wrapper">
+  <div class="inner">
+    <iframe
+            id="readme-frame"
+            src="README.html"
+            width="100%"
+            style="border: none; background: transparent;"
+            onload="initFrame(this)">
+    </iframe>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper style2 align-center">
+  <div class="inner">
+    <ul class="actions stacked">
+      <li><a href="../../index.html" class="button">← Back to Portfolio</a></li>
+      <li><a href="https://github.com/rmnesbitt" target="_blank" class="button icon brands fa-github">View on GitHub</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script>
+  function initFrame(iframe) {
+    try {
+      const doc = iframe.contentWindow.document;
+      doc.body.style.background = 'transparent';
+      doc.documentElement.style.background = 'transparent'; // this is <html>
+      iframe.style.height = doc.body.scrollHeight + "px";
+    } catch (err) {
+      console.warn("Could not access iframe content:", err);
+    }
+  }
+</script>
+<script src="../../assets/js/jquery.min.js"></script>
+<script src="../../assets/js/jquery.scrolly.min.js"></script>
+<script src="../../assets/js/browser.min.js"></script>
+<script src="../../assets/js/breakpoints.min.js"></script>
+<script src="../../assets/js/util.js"></script>
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>
