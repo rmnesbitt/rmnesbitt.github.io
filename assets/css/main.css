@@ -4002,6 +4002,7 @@ input, select, textarea {
 			transform: translateX(0);
 			opacity: 1;
 			text-align: right;
+			max-width: 50%;
 			margin: -3.5em 4em 0 0;
 		}
 
@@ -4015,6 +4016,15 @@ input, select, textarea {
 				-ms-justify-content: -ms-flex-end;
 				justify-content: flex-end;
 			}
+
+#header .header-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	text-align: center;
+}
 
 		#header .image {
 			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
