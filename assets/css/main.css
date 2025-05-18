@@ -2220,51 +2220,105 @@ input, select, textarea {
 	}
 
 /* Icon */
+.tools {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 0.5em;
+}
+
+.tool-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 6px;
+	filter: grayscale(66%);
+	transition: all 0.2s ease;
+	opacity: 0.9;
+}
+
+.tool-icon:hover {
+	transform: scale(2);
+	opacity: 1.0;
+	filter: grayscale(00%);
+}
+
+.tool-icon.excel {
+	background-image: url('../../icons/excel.png');
+}
+
+.tool-icon.python {
+	background-image: url('../../icons/python.png');
+}
+
+.tool-icon.sql {
+	background-image: url('../../icons/sql.png');
+}
+
+.tool-icon.powerpoint {
+	background-image: url('../../icons/powerpoint.png');
+}
+
+.tool-icon.tableau {
+	background-image: url('../../icons/tableau.png');
+}
+
+.tool-label {
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: #666;
+	margin-right: 8px;
+	margin-bottom: 1px;
+	vertical-align: middle;
+}
+
 	.icon.sql{
 		background: url('../../icons/sql.png') no-repeat center center;
 		display: inline-block;
-		width: 32px;
-		height: 32px;
+		width: 64px;
+		height: 64px;
 		background-size: contain;
 	}
 
 	.icon.python {
 		background: url('../../icons/python.png') no-repeat center center;
 		display: inline-block;
-		width: 32px;
-		height: 32px;
+		width: 64px;
+		height: 64px;
 		background-size: contain;
 	}
 
 	.icon.r {
 		background: url('../../icons/r.png') no-repeat center center;
 		display: inline-block;
-		width: 32px;
-		height: 32px;
+		width: 64px;
+		height: 64px;
 		background-size: contain;
 	}
 
 	.icon.tableau {
 		background: url('../../icons/tableau.png') no-repeat center center;
 		display: inline-block;
-		width: 32px;
-		height: 32px;
+		width: 64px;
+		height: 64px;
 		background-size: contain;
 	}
 
 	.icon.excel {
 		background: url('../../icons/excel.png') no-repeat center center;
 		display: inline-block;
-		width: 32px;
-		height: 32px;
+		width: 64px;
+		height: 64px;
 		background-size: contain;
 	}
 
 .icon.powerpoint {
 	background: url('../../icons/powerpoint.png') no-repeat center center;
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 64px;
+	height: 64px;
 	background-size: contain;
 }
 
@@ -2862,7 +2916,7 @@ input, select, textarea {
 	.tools {
 		font-style: italic;
 		opacity: 0.75;
-		margin: 0.5em 0 0.75em;
+		margin: 0 0 1em;
 	}
 
 	.spotlight.style1 .actions {
@@ -2919,6 +2973,10 @@ input, select, textarea {
 			width: 70%;
 		}
 
+		.spotlight .content p {
+			margin-bottom: 1em;
+		}
+
 			.spotlight .content > :last-child {
 				margin-bottom: 0;
 			}
@@ -2968,6 +3026,19 @@ input, select, textarea {
 			.spotlight .content {
 				width: 100%;
 				text-align: center !important;
+			}
+
+			.spotlight .tools {
+				justify-content: center;
+				text-align: center;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 8px;
+			}
+
+			.spotlight .actions {
+				display: flex !important;
+				justify-content: center !important;
 			}
 
 	}
