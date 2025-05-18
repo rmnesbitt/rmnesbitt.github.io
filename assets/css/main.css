@@ -2220,64 +2220,72 @@ input, select, textarea {
 	}
 
 /* Icon */
-	.icon.sql-color{
-		background: url('../../icons/sql-color.png') no-repeat center center;
+	.icon.sql{
+		background: url('../../icons/sql.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.python-color {
-		background: url('../../icons/python-color.png') no-repeat center center;
+	.icon.python {
+		background: url('../../icons/python.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.r-color {
-		background: url('../../icons/r-color.png') no-repeat center center;
+	.icon.r {
+		background: url('../../icons/r.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.tableau-color {
-		background: url('../../icons/tableau-color.png') no-repeat center center;
+	.icon.tableau {
+		background: url('../../icons/tableau.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.excel-color {
-		background: url('../../icons/excel-color.png') no-repeat center center;
+	.icon.excel {
+		background: url('../../icons/excel.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.email-color {
-		background: url('../../icons/mail-color.png') no-repeat center center;
+.icon.powerpoint {
+	background: url('../../icons/powerpoint.png') no-repeat center center;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-size: contain;
+}
+
+	.icon.email {
+		background: url('../../icons/mail.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.phone-color {
-		background: url('../../icons/phone-color.png') no-repeat center center;
+	.icon.phone {
+		background: url('../../icons/phone.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
 		background-size: contain;
 	}
 
-	.icon.linkedin-color {
-		background: url('../../icons/linkedin-color.png') no-repeat center center;
+	.icon.linkedin {
+		background: url('../../icons/linkedin.png') no-repeat center center;
 		display: inline-block;
 		width: 32px;
 		height: 32px;
