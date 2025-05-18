@@ -4,14 +4,15 @@
     "description": "An evaluation of SaaS customer segments to inform growth prioritization.",
     "image": "images/pyramid-graphic.png",
     "url": "projects/Strategic-Opportunity-Assessment/soa.html",
-    "tools":  ["python", "excel"]
+    "tools": ["python", "excel"],
+    "index": "1"
   },
   {
     "title": "Forecasting Playoff Outcomes",
     "description": "An analysis of NBA team performance metrics and how their predictive power in forecasting playoff outcomes.",
     "image": "images/chart-3.png",
     "url": "projects/NBA-Playoff-Predictions/npp.html",
-    "tools":  ["python", "sql"],
+    "tools": ["python", "sql"],
     "index": "4"
   },
   {

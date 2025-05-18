@@ -72,7 +72,7 @@
 					${project.tools ? `
 					  <p class="tools">
 					  <span class="tool-label">Tools:</span>
-						${project.tools.map(tool => `<span class="tool-icon ${tool}" title="${tool}"></span>`).join("")}
+						${project.tools.map(tool => `<span class="tool-icon ${tool}" data-tooltip="${tool.charAt(0).toUpperCase() + tool.slice(1)}"></span>`).join("")}
 					  </p>
 					` : ""}
 				  <ul class="actions">
