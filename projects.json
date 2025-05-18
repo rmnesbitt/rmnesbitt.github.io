@@ -4,14 +4,14 @@
     "description": "An evaluation of SaaS customer segments to inform growth prioritization.",
     "image": "images/pyramid-graphic.png",
     "url": "projects/Strategic-Opportunity-Assessment/soa.html",
-    "tools":  ["excel", "python"]
+    "tools":  ["python", "excel"]
   },
   {
     "title": "Forecasting Playoff Outcomes",
     "description": "An analysis of NBA team performance metrics and how their predictive power in forecasting playoff outcomes.",
     "image": "images/chart-3.png",
     "url": "projects/NBA-Playoff-Predictions/npp.html",
-    "tools":  ["sqlite", "numpy", "sklearn"],
+    "tools":  ["python", "sql"],
     "index": "4"
   },
   {
@@ -19,7 +19,7 @@
     "description": "An analysis of how student habits correlate with academic performance.",
     "image": "images/plot-2.png",
     "url": "projects/Student-Success-Patterns/ssp.html",
-    "tools": ["python", "pandas", "statsmodels"],
+    "tools": ["python", "sql", "excel"],
     "index": "3"
   },
   {
@@ -27,7 +27,7 @@
     "description": "An analysis of simulated investor behavior, portfolio trends and product monetization",
     "image": "images/line-graph-4.png",
     "url": "projects/Investor-Behavior-Patterns/ibp.html",
-    "tools": ["matplotlib", "faker"],
+    "tools": ["python", "jupyter"],
     "index": "2"
   }
 ]

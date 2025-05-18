@@ -2245,6 +2245,10 @@ input, select, textarea {
 	filter: grayscale(00%);
 }
 
+.tool-icon.jupyter {
+	background-image: url("../../icons/jupyter.png");
+}
+
 .tool-icon.excel {
 	background-image: url('../../icons/excel.png');
 }
