@@ -2966,6 +2966,11 @@ input, select, textarea {
 		margin: 2em;
 	}
 
+	.spotlight.style2 .tools {
+		justify-content: flex-end;
+		text-align: right;
+	}
+
 	.spotlight {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3035,6 +3040,11 @@ input, select, textarea {
 			margin: 2em;
 		}
 
+		.spotlight.style2 .tools {
+			justify-content: center !important;
+			text-align: center !important;
+		}
+
 	}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
@@ -3058,8 +3068,8 @@ input, select, textarea {
 			}
 
 			.spotlight .tools {
-				justify-content: center;
-				text-align: center;
+				justify-content: center !important;
+				text-align: center !important;
 				display: flex;
 				flex-wrap: wrap;
 				gap: 8px;
