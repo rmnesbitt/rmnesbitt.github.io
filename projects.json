@@ -5,7 +5,7 @@
     "image": "images/pyramid-graphic.png",
     "url": "projects/Strategic-Opportunity-Assessment/soa.html",
     "tools": ["python", "excel"],
-    "index": "1"
+    "index": "2"
   },
   {
     "title": "Forecasting Playoff Outcomes",
@@ -13,7 +13,7 @@
     "image": "images/chart-3.png",
     "url": "projects/NBA-Playoff-Predictions/npp.html",
     "tools": ["python", "sql"],
-    "index": "4"
+    "index": "5"
   },
   {
     "title": "Uncovering Patterns in Student Success",
@@ -21,7 +21,7 @@
     "image": "images/plot-2.png",
     "url": "projects/Student-Success-Patterns/ssp.html",
     "tools": ["python", "sql", "excel"],
-    "index": "3"
+    "index": "4"
   },
   {
     "title": "Investigating Investor Behaviors",
@@ -29,6 +29,14 @@
     "image": "images/line-graph-4.png",
     "url": "projects/Investor-Behavior-Patterns/ibp.html",
     "tools": ["python", "jupyter"],
-    "index": "2"
+    "index": "3"
+  },
+  {
+    "title": "Competitive Positioning Matrix",
+    "description": "Comparing Reach vs Value to determine market positioning.",
+    "image": "images/chart-5.png",
+    "url": "projects/Competitive-Positioning-Matrix/cpm.html",
+    "tools": ["python", "excel", "powerpoint"],
+    "index": "1"
   }
 ]
